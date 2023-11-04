@@ -54,7 +54,7 @@ git pull origin part-2
 
 ## GET COPILOT UP AND RUNNING IN NEOVIM USING LAZYVIM
 
-First thing to do according to (LazyVim)[https://www.lazyvim.org/extras/coding/copilot] is simply to 
+First thing to do according to [LazyVim](https://www.lazyvim.org/extras/coding/copilot) is simply to 
 
 ```shell
 :LazyExtras
