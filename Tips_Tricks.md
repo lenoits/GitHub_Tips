@@ -46,9 +46,37 @@ git pull origin part-1
 
 and repeat this procedure also for ```part-2``` after switching to ```main``` first
 
-
 ```shell
 git switch main
 git switch -c part-2 
 git pull origin part-2
 ```
+
+## GET COPILOT UP AND RUNNING IN NEOVIM USING LAZYVIM
+
+First thing to do is simply to to 
+
+```shell
+:LazyExtras
+```
+
+locate ```code.copilot``` and enable it with ```x```. However, once I did this, it did not automatically work. I saw that I need two
+
+
+```shell
+:Copilot auth
+```
+
+which I did but then it said ```Copilot [offline]``` which I could not understand at the time. I then saw that ```Node.js``` was required, so I simply typed
+
+```shell
+sudo pacman -S nodejs
+```
+
+to install ```Node js``` and then when I opened ```nvim``` again I simply tried to type 
+
+```shell
+:Copilot auth
+```
+
+again and this time an url and a code spawned. Upon opening the url and copying and inserting the code, suddenly it worked!
