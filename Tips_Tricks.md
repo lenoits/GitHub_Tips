@@ -44,11 +44,11 @@ git switch -c part-1
 git pull origin part-1
 ```
 
-and repeat this procedure also for ```part-2```
+and repeat this procedure also for ```part-2``` after switching to ```main``` first
 
 
 ```shell
 git switch main
-git switch -c part-1 
-git pull origin part-1
+git switch -c part-2 
+git pull origin part-2
 ```
